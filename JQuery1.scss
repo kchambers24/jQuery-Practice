@@ -1,5 +1,7 @@
 $main-color: grey;
 $second-color: lightgrey;
+$third-color: #00e500;
+$fourth-color: #404040
 
 
 body {
@@ -16,13 +18,13 @@ ul.subFiles {
 
 ul.mainFiles > li {
   border: 1px solid black;
-  background-color: grey;
+  background-color: $main-color;
   color: white;
   cursor: pointer; }
 
 ul.subFiles > li {
-  border: 1px solid grey;
-  background-color: lightgrey;
+  border: 1px solid $main-color;
+  background-color: $second-color;
   color: grey;
   height: 25px; }
 
@@ -66,14 +68,14 @@ ul.subFiles > li {
   border-radius: 5px;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: lightgrey; }
+  background-color: $second-color; }
 
 .mainCircle {
-  border: 1px solid #404040;
+  border: 1px solid $fourth-color;
   border-radius: 5px;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: #404040; }
+  background-color: $fourth-color; }
 
 .numberRow {
   padding-top: 5px;
@@ -81,8 +83,8 @@ ul.subFiles > li {
   color: #686868; }
 
 .parentBox:hover {
-  background-color: #00e500;
-  color: #404040;
+  background-color: $third-color;
+  color: $fourth-color;
 }
 .numberRight {
   color: white;
