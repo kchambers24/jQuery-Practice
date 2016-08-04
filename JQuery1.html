@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Practice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <!-- <link rel="stylesheet" href="./JQuery1.css" media="screen" title="no title" charset="utf-8"> -->
+    <link rel="stylesheet" href="./JQuery1.scss" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+<div class="mainContainer">
+    <ul class="mainFiles">
+       <li class="parentBox"><i class="fa fa-file-text-o" aria-hidden="true"></i>My File<p class="numberRight"><span class="mainCircle">495</span></p>
+         <ul class="subFiles">
+           <li class="numberRow"><span class="innerNumber">01</span> Dropbox<p class="subNumbersRight"><span class="circle">42</span></p></li>
+           <li class="numberRow"><span class="innerNumber">02</span> Skydrive<p class="subNumbersRight"><span class="circle">87</span></p></li>
+           <li class="numberRow"><span class="innerNumber">03</span> FTP Server<p class="subNumbersRight"><span class="circle">366</span></p></li>
+           <li class="numberRow"><span class="innerNumber">04</span> Dropbox<p class="subNumbersRight"><span class="circle">01</span></p></li>
+           <li class="numberRow"><span class="innerNumber">05</span> Skydrive<p class="subNumbersRight"><span class="circle">10</span></p></li>
+         </ul>
+       </li>
+      <li class="parentBox"><i class="fa fa-envelope-o" aria-hidden="true"></i>Mail<p class="numberRight"><span class="mainCircle">26</span></p></li>
+      <li class="parentBox"><i class="fa fa-cloud" aria-hidden="true"></i>Cloud<p class="numberRight"><span class="mainCircle">58</span></p>
+        <ul class="subFiles">
+          <li class="numberRow"><span class="innerNumber">01</span> Connect<p class="subNumbersRight"><span class="circle">12</span></p></li>
+          <li class="numberRow"><span class="innerNumber">02</span> Profiles<p class="subNumbersRight"><span class="circle">19</span></p></li>
+          <li class="numberRow"><span class="innerNumber">03</span> Options<p class="subNumbersRight"><span class="circle">27</span></p></li>
+          <li class="numberRow"><span class="innerNumber">04</span> Connect<p class="subNumbersRight"><span class="circle">12</span></p></li>
+          <li class="numberRow"><span class="innerNumber">05</span> Profiles<p class="subNumbersRight"><span class="circle">19</span></p></li>
+          <li class="numberRow"><span class="innerNumber">06</span> Options<p class="subNumbersRight"><span class="circle">27</span></p></li>
+        </ul>
+      </li>
+      <li class="parentBox"><i class="fa fa-plug" aria-hidden="true"></i>Sign Out</li>
+    </ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="./JQuery1.js"></script>
+<script>
+// $(function() {
+//   $(`ul.mainFiles > li`).hover(function() {
+//       $(this).find(`ul.subFiles`).show(500);
+//     }, function() {
+//       $(this).find(`ul.subFiles`).hide(500);
+//   });
+// });
+</script>
+</body>
+</html>
